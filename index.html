@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UFT-8" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>איקס עיגול - מאור ישראלי</title>
+    <div id="intro">
+        <div id = "title">
+            <u><h1>איקס עיגול</h1></u>
+        </div>
+        <div id ="target_header">
+            <h2>מטרת המשחק:</h2>
+        </div>
+        <div id="target">
+            <b>מטרת כל שחקן היא ליצור שלושה סימנים (איקס או עיגול) הנמצאים על שורה אחת, טור אחד או אלכסון אחד.</b>
+        </div>
+        <div id ="instruction_header">
+            <h2>הוראות:</h2>
+        </div>
+        <div id ="instruction">
+            <b>
+                המשחק מתחיל בלחיצה על אחד התאים,<br>
+                השחקן הראשון שלוחץ הוא ה-X והשחקן השני הוא ה-O.<br>
+                אם לא מתבצע מהלך תוך 30 שניות השחקן מפסיד!<br>
+            </b>
+        </div>
+    </div>
+</head>
+<body>
+    <div id="timer">
+        <b><u>
+            זמן שנותר: <span id="counter">הקלק כדי להתחיל</span>
+        </u></b>
+    </div>
+    <div id ="case">
+        <div id="game_board">
+            <button class="block"></button>
+            <button class="block"></button>
+            <button class="block"></button>
+            <button class="block"></button>
+            <button class="block"></button>
+            <button class="block"></button>
+            <button class="block"></button>
+            <button class="block"></button>
+            <button class="block"></button>
+        </div>
+        <button id="restart_button">התחל מחדש</button>
+    </div>
+    <div class="message hide">
+        <p id="text"></p>
+        <button id="restart_button2">התחל מחדש</button>
+    </div>
+    <script src="tictac.js"></script>
+</body>
+</html>
